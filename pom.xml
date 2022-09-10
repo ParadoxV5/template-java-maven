@@ -67,17 +67,17 @@
   </dependencies>
   
   <scm>
-    <url>https://github.com/</url>
-    <developerConnection>scm:git:https://github.com/</developerConnection>
+    <url>https://github.com//</url>
+    <developerConnection>scm:git:https://github.com//</developerConnection>
   </scm>
   <distributionManagement><repository>
     <id>github</id>
     <name>GitHub Packages</name>
-    <url>https://maven.pkg.github.com/</url>
+    <url>https://maven.pkg.github.com//</url>
   </repository></distributionManagement>
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com//issues</url>
+    <url>https://github.com///issues</url>
   </issueManagement>
   
 </project>
