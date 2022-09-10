@@ -63,7 +63,8 @@ Inside this folder are thoroughly configured (no modification required)
 
 * `target` is the build output folder in the Maven Standard.
   Java must compile sources to Bytecode before interpreting them.
-* Don’t include IDE (e.g., [RubyMine](https://www.jetbrains.com/ruby/)) configurations
+* Don’t include IDE (e.g., [IntelliJ IDEA](https://www.jetbrains.com/idea/) or
+  [Eclipse IDE](https://www.eclipse.org/ide/)) configurations
   unless you want to enforce your organization’s digital environment.
 
 
