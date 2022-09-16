@@ -2,9 +2,9 @@
 /.idea/
 
 # Eclipse
-.project
-.classpath
 /.settings/
+/.project
+/.classpath
 
 # Java
 /target/
