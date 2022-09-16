@@ -5,14 +5,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 >
   <modelVersion>4.0.0</modelVersion>
-  <groupId></groupId>
+  <groupId>xyz.paradoxv5</groupId>
   <artifactId></artifactId>
   <name></name>
   <version></version>
   
   <developers><developer>
-    <id></id>
-    <url>https://github.com/</url>
+    <id>ParadoxV5</id>
+    <url>https://github.com/ParadoxV5</url>
   </developer></developers>
   <licenses><license>
     <name></name>
@@ -52,6 +52,13 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
   
+  <!--<repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/ParadoxV5/</url>
+    </repository>
+  </repositories>-->
   <dependencies>
     <dependency>
       <groupId>org.jetbrains</groupId>
@@ -67,17 +74,17 @@
   </dependencies>
   
   <scm>
-    <url>https://github.com//</url>
-    <developerConnection>scm:git:https://github.com//</developerConnection>
+    <url>https://github.com/ParadoxV5/</url>
+    <developerConnection>scm:git:https://github.com/ParadoxV5/</developerConnection>
   </scm>
   <distributionManagement><repository>
     <id>github</id>
     <name>GitHub Packages</name>
-    <url>https://maven.pkg.github.com//</url>
+    <url>https://maven.pkg.github.com/ParadoxV5/</url>
   </repository></distributionManagement>
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com///issues</url>
+    <url>https://github.com/ParadoxV5//issues</url>
   </issueManagement>
   
 </project>
