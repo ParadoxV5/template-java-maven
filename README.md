@@ -40,6 +40,7 @@ and you are welcome to remove those auxiliaries from your project’s `pom.xml`.
 4. [JetBrains annotations](https://github.com/JetBrains/java-annotations) (for code analysis)
    and [JUnit 5](https://junit.org/junit5/) Jupiter dependencies
 5. Version Control, Deployment and Issue Management URLs metadata
+   (fill them in in this format: `….github.com/<REPO OWNER>/<REPO NAME>`)
 
 ###### [`LICENSE.txt`](LICENSE.txt)
 See [§License](#License)
