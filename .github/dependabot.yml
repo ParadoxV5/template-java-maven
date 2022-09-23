@@ -1,15 +1,26 @@
 version: 2
+#
+#registries:
+#  github-maven:
+#    type: maven-repository
+#    url: https://maven.pkg.github.com/ParadoxV5/
+#    username: ''
+#    password: ${{ secrets.GITHUB_TOKEN }}
+#
 updates:
 
 - package-ecosystem: maven
+#  registries: [github-maven]
   directory: /
   ignore:
   - update-types: [version-update:semver-major]
     dependency-name: '*'
   schedule:
     interval: weekly
+  assignees: [ParadoxV5]
 #
 #- package-ecosystem: gitsubmodule
 #  directory: /
 #  schedule:
 #    interval: weekly
+#  assignees: [ParadoxV5]
