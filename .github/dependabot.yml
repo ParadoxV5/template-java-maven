@@ -1,7 +1,7 @@
 version: 2
 #
 #registries:
-#  github-maven:
+#  github:
 #    type: maven-repository
 #    url: https://maven.pkg.github.com/ParadoxV5/
 #    username: ''
@@ -10,7 +10,7 @@ version: 2
 updates:
 
 - package-ecosystem: maven
-#  registries: [github-maven]
+  #registries: [github]
   directory: /
   ignore:
   - update-types: [version-update:semver-major]
