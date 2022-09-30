@@ -1,7 +1,7 @@
 # `template-java-maven`
 
 Built upon [`ParadoxV5/java-mystring`](https://github.com/ParadoxV5/java-mystring),
-this is a basic yet thorough template for a Maven-managed Java project.
+this is a mediocre yet thorough template for a Maven-managed Java project.
 
 
 ## How to Setup
