@@ -4,7 +4,7 @@ updates:
 - package-ecosystem: maven
   directory: /
   ignore:
-  - update-types: [version-update:semver-major]
+  - update-types: [version-update:semver-patch]
     dependency-name: '*'
   schedule:
     interval: weekly
