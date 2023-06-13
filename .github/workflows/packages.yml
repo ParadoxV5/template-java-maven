@@ -1,4 +1,4 @@
-name: GitHub Packages
+name: GitHub Packages with Maven
 on: {release: {types: [published]}}
 jobs:
   package:
