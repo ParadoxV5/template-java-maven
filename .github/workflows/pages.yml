@@ -1,8 +1,8 @@
-name: GitHub Pages
+name: GitHub Pages with JavaDoc
 on:
   push:
     branches: [main]
-    paths: [src/main/java/**]
+    paths: [.github/workflows/pages.yml, src/main/java/**]
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -42,4 +42,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: deploy-pages
-      uses: actions/deploy-pages@v1
+      uses: actions/deploy-pages@v2
