@@ -29,7 +29,7 @@ jobs:
       run: mvn -batch-mode javadoc:javadoc
       env: {GITHUB_TOKEN: "${{ github.token }}"}
     
-    - uses: actions/upload-pages-artifact@v1
+    - uses: actions/upload-pages-artifact@v2
       with:
         path: target/site/apidocs
   
