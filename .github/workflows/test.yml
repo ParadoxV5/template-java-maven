@@ -1,19 +1,19 @@
 name: Test with Maven
 on:
   push:
-    paths: [.github/workflows/test.yml, src/**]
+    paths: [.github/workflows/test.yml, src/**, pom.xml]
   pull_request:
-    paths: [.github/workflows/test.yml, src/**]
+    paths: [.github/workflows/test.yml, src/**, pom.xml]
 jobs:
   
-  spec:
+  test:
     strategy:
       fail-fast: false
       matrix:
-        java-version: ['20', '17', '11', '8']
-    name: 'Java ${{ matrix.java-version }}'
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+        os: [ubuntu-latest, windows-latest]
+        java-version: ['21', '17']
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
     steps:
     
     - uses: actions/checkout@v4

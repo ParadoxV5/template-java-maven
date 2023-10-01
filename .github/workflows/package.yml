@@ -1,4 +1,4 @@
-name: GitHub Packages with Maven
+name: Package with Maven
 on: {release: {types: [published]}}
 jobs:
   package:
@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-java@v3
       with:
         distribution: temurin
-        java-version: '17'
+        java-version: '21'
         cache: maven
     
     - name: Package with Maven & Publish to GitHub Packages
