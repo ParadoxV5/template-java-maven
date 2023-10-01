@@ -6,7 +6,6 @@ this is a mediocre yet thorough template for a Maven-managed Java project.
 
 ## How to Setup
 
-* _Delete [`src/main/java/.gitkeep`](src/main/java/.gitkeep), the filler file for the otherwise-empty folder)_
 * Update the [`pom.xml`](pom.xml) with your project’s information (See [§`pom.xml`](#pomxml))
 * Overwrite this `README` with an introduction to your epic project
 * Replace *this template’s* [`LICENSE.txt`](LICENSE.txt) with
