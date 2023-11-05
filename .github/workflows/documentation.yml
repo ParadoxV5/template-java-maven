@@ -1,8 +1,8 @@
-name: GitHub Pages with JavaDoc
+name: Generate Documentation with JavaDoc
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/pages.yml, src/main/java/**]
+    paths: [.github/workflows/documentation.yml, src/main/java/**]
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 2
     steps:
     
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: recursive
     
@@ -22,14 +22,14 @@ jobs:
     - uses: actions/setup-java@v3
       with:
         distribution: temurin
-        java-version: '17'
+        java-version: '21'
         cache: maven
     
     - name: Package JavaDoc
       run: mvn -batch-mode javadoc:javadoc
       env: {GITHUB_TOKEN: "${{ github.token }}"}
     
-    - uses: actions/upload-pages-artifact@v1
+    - uses: actions/upload-pages-artifact@v2
       with:
         path: target/site/apidocs
   
