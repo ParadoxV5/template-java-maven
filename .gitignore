@@ -1,11 +1,11 @@
 # JetBrains
-/.idea/
+.idea/
 # Eclipse
-/.settings/
-/.project
-/.classpath
+.settings/
+.project
+.classpath
 # VSCode
-/.vscode/
+.vscode/
 
 # Java
-/target/
+target/
