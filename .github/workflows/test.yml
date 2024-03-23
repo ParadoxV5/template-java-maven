@@ -1,9 +1,15 @@
 name: Test with Maven
 on:
   push:
-    paths: [.github/workflows/test.yml, src/**, pom.xml]
+    paths:
+    - .github/workflows/test.yml
+    - src/**
+    - pom.xml
   pull_request:
-    paths: [.github/workflows/test.yml, src/**, pom.xml]
+    paths:
+    - .github/workflows/test.yml
+    - src/**
+    - pom.xml
 jobs:
   
   test:
