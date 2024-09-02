@@ -33,7 +33,7 @@
         <version>3.7.0</version>
         <configuration>
           <links>
-            <link>https://javadoc.io/doc/org.jetbrains/annotations/23.0/</link>
+            <link>https://javadoc.io/doc/org.jetbrains/annotations/24</link>
           </links>
         </configuration>
       </plugin>
